@@ -4,6 +4,17 @@ import {ValueWarnController} from "./controllers/forms/value_warn_controller";
 export {BaseController} from "./utilities/base_controller";
 export {EphemeralController} from "./utilities/ephemeral_controller";
 
+// Trix controllers
+export {NoBoldListController} from './controllers/trix/no_bold_controller';
+export {NoBulletListController} from './controllers/trix/no_bullet_list_controller';
+export {NoCodeController} from './controllers/trix/no_code_controller';
+export {NoFileUploadsController} from './controllers/trix/no_file_uploads_controller';
+export {NoHeadingController} from './controllers/trix/no_heading_controller';
+export {NoIndentsController} from './controllers/trix/no_indents_controller';
+export {NoNumberListController} from './controllers/trix/no_number_list_controller';
+export {NoQuoteController} from './controllers/trix/no_quote_controller';
+export {UnderlineController} from './controllers/trix/underline_controller';
+
 // Controllers
 export {AnchorSpyController} from "./controllers/anchor_spy_controller";
 export {AsyncBlockController} from "./controllers/ajax/async_block_controller";
